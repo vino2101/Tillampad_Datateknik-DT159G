@@ -21,12 +21,12 @@
 
 body,html {
     overflow-x: hidden;
+    color: #0E1205;
     background: #FFFFFF;
 }
 
 .header {
     background-color: #C5D1D9;
-    color: #4A6D8C;
     min-height: 80px;
     text-transform: uppercase;
 }
@@ -104,26 +104,26 @@ body,html {
     left: 0;
     height: 100%;
     width: 100%;
-    background: #0E1205 no-repeat;
+    background: #C5D1D9 no-repeat;
     background-size: cover;
     background-position: center;
     z-index: -1;
 }
 
 .navmenu a:hover:nth-child(1) ~ .background-image {
-    background: lightgoldenrodyellow;
+    background: #4A6D8C;
     background-size: cover;
     background-position: center;
 }
 
 .navmenu a:hover:nth-child(2) ~ .background-image {
-    background: lightsalmon;
+    background: #4A6D8C;
     background-size: cover;
     background-position: center;
 }
 
 .navmenu a:hover:nth-child(3) ~ .background-image {
-    background: lightgreen;
+    background: #4A6D8C;
     background-size: cover;
     background-position: center;
 }
