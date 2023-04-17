@@ -6,7 +6,7 @@
 .DT159G-1-2-hex { color: #C5D1D9; }
 .DT159G-1-3-hex { color: #5F7364; }
 .DT159G-1-4-hex { color: #0E1205; }
-.DT159G-1-5-hex { color: #D9CFCC; }
+.DT159G-1-5-hex { color: #e2dcda; }
 
 * {
     font-family: 'Merriweather', serif;
@@ -21,7 +21,7 @@
 
 body,html {
     overflow-x: hidden;
-    background: #D9CFCC;
+    background: #e2dcda;
 }
 
 .header {
@@ -31,7 +31,7 @@ body,html {
 }
 
 .section {
-    background-color: #D9CFCC;
+    background-color: #e2dcda;
     min-height: 700px;
 }
 
