@@ -104,26 +104,26 @@ body,html {
     left: 0;
     height: 100%;
     width: 100%;
-    background: #C5D1D9 no-repeat;
+    background: #4A6D8C no-repeat;
     background-size: cover;
     background-position: center;
     z-index: -1;
 }
 
 .navmenu a:hover:nth-child(1) ~ .background-image {
-    background: #4A6D8C;
+    background: #5F7364;
     background-size: cover;
     background-position: center;
 }
 
 .navmenu a:hover:nth-child(2) ~ .background-image {
-    background: #4A6D8C;
+    background: #5F7364;
     background-size: cover;
     background-position: center;
 }
 
 .navmenu a:hover:nth-child(3) ~ .background-image {
-    background: #4A6D8C;
+    background: #5F7364;
     background-size: cover;
     background-position: center;
 }
