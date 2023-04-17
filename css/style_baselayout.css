@@ -25,18 +25,18 @@ body,html {
 }
 
 .header {
-    background-color: red;
-    min-height: 50px;
+    background-color: #4A6D8C;
+    min-height: 80px;
     text-transform: uppercase;
 }
 
 .section {
-    background-color: aqua;
+    background-color: #D9CFCC;
     min-height: 700px;
 }
 
 .footer {
-    background-color: blueviolet;
+    background-color: #4A6D8C;
     min-height: 200px;
 }
 
