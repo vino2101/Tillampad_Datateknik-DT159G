@@ -6,7 +6,7 @@
 .DT159G-1-2-hex { color: #C5D1D9; }
 .DT159G-1-3-hex { color: #5F7364; }
 .DT159G-1-4-hex { color: #0E1205; }
-.DT159G-1-5-hex { color: #e2dcda; }
+.DT159G-1-5-hex { color: #FFFFFF; }
 
 * {
     font-family: 'Merriweather', serif;
@@ -21,22 +21,23 @@
 
 body,html {
     overflow-x: hidden;
-    background: #e2dcda;
+    background: #FFFFFF;
 }
 
 .header {
-    background-color: #4A6D8C;
+    background-color: #C5D1D9;
+    color: #4A6D8C;
     min-height: 80px;
     text-transform: uppercase;
 }
 
 .section {
-    background-color: #e2dcda;
+    background-color: #FFFFFF;
     min-height: 700px;
 }
 
 .footer {
-    background-color: #4A6D8C;
+    background-color: #C5D1D9;
     min-height: 200px;
 }
 
