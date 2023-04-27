@@ -8,8 +8,13 @@
 /* ---------- HERE ARE ALL CONTAINERS, BOXES, ETC. ---------- */
 .container {
     display:grid;
-       grid-template-columns: 25% 75%;
-       grid-row: auto;
+    grid-template-columns: 25% 75%;
+    grid-row: auto;
+    text-decoration: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-flow: column;
    }
 
 .sidebar {
