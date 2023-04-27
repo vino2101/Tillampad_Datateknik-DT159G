@@ -14,8 +14,10 @@
 
 .sidebar {
     background-color: red;
+    min-height: 700px;
 }
 
 .maincontent {
     background-color: yellow;
+    min-height: 700px;
 }
