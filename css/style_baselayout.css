@@ -8,6 +8,7 @@
 .DT159G-1-4-hex { color: #0E1205; }
 .DT159G-1-5-hex { color: #FFFFFF; }
 
+/* ---------- STYLING FOR ALL ITEMS ---------- */
 * {
     font-family: 'Merriweather', serif;
     margin: 0;
@@ -19,12 +20,14 @@
     transition: all .2s linear;
 }
 
+/* ---------- STYLING FOR THE BODY AND ALL ITEMS WITHIN THE HTML TAGS ---------- */
 body,html {
     overflow-x: hidden;
     color: #0E1205;
     background: #FFFFFF;
 }
 
+/* ---------- STYLING FOR ALL THE BASIC BLOCK ELEMENTS ---------- */
 .header {
     background-color: #C5D1D9;
     min-height: 80px;
@@ -34,11 +37,13 @@ body,html {
 .section {
     background-color: #FFFFFF;
     min-height: 700px;
+    height: fit-content;
 }
 
 .footer {
     background-color: #C5D1D9;
     min-height: 200px;
+    height: fit-content;
 }
 
 /* ---------- STYLING AND FUNCTION FOR THE NAVIGATION MENU ---------- */
@@ -46,7 +51,7 @@ body,html {
     position: fixed;
     top: 0;
     left: -110%;
-    height: 90%;
+    height: 80%;
     width: 90%;
     z-index: 1000;
     display: flex;
@@ -56,6 +61,7 @@ body,html {
     padding: 0 10%;
 }
 
+/* ---------- CONTROLS THE POSITION OF THE CHECKBOX THAT CONTROLS THE MENU ---------- */
 #nav-toggler {
     position: fixed;
     top: 20px;
