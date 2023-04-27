@@ -10,19 +10,21 @@
     display:grid;
     grid-template-columns: 25% 75%;
     grid-row: auto;
-    text-decoration: none;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-flow: column;
    }
 
 .sidebar {
-    background-color: red;
+    background-color: #5F7364;
     min-height: 700px;
 }
 
+.sidebar a {
+    font-size: 1.5em;
+    padding: 3%;
+    text-decoration: none;
+    color: #0E1205;
+}
+
 .maincontent {
-    background-color: yellow;
+    background-color: #D9CFCC;
     min-height: 700px;
 }
