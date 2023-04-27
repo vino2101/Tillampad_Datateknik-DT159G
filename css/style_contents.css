@@ -6,3 +6,16 @@
 .DT159G-1-5-hex { color: #D9CFCC; }
 
 /* ---------- HERE ARE ALL CONTAINERS, BOXES, ETC. ---------- */
+.container {
+    display:grid;
+       grid-template-columns: 25% 75%;
+       grid-row: auto;
+   }
+
+.sidebar {
+    background-color: red;
+}
+
+.maincontent {
+    background-color: yellow;
+}
